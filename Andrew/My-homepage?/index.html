@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style> 
+    body {
+      background-image: url("backgroung.jpg");
+      background-size: 100%;
+      background-attachment: fixed;
+    }
+
+    h1 {
+      color: red;
+      font-size: 40px;
+      border-left: 6px solid red;
+      background-color: lightgrey;
+      width: 55%;
+      margin-left: 22.5%;
+    }
+
+    .space {
+      margin-top: 50px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .para {
+      font-family: verdana;
+      font-size: 20px;
+    }
+
+    h2 {
+      font-family: verdana;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    div {
+      text-align: center;
+      margin: auto;
+    }
+
+    .under {
+      z-index: -100;
+    }
+
+    .over {
+      z-index: 100;
+    }
+
+    .topnav {
+      width: 600px;
+      overflow: hidden;
+      background-color: lightgray;
+    }
+
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .MarginTop {
+      margin-top: 70px;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 0;
+    }
+
+    .border {
+      border: solid red;
+    }
+
+    a:link {
+      color: blue;
+      background-color: lightgray;
+    }
+
+    a:visited {
+      color: blue;
+      background-color: lightgray;
+    }
+
+    a:hover {
+      color: darkblue;
+      background-color: lightgray;
+    }
+
+    audio {
+      text-align: center;
+    }
+    
+    button {
+      color: green;
+    }
+
+    .Bcenter {
+      text-align: center;
+      font-size: 15px;
+      margin-top: 20px;
+      width: 50%;
+      height: 30px;
+      margin-left: 25%;
+    }
+
+  </style>
+
+  <script>
+    alert("hello there. I am watching you. I see you.")
+    console.log("hello world")
+    var jacen = "jacen's site??"
+
+    function spam() {
+      alert("hi")
+      alert("hi")
+      alert("hi")
+      alert("hi")
+      alert("hi")
+      alert("hi")
+    }
+
+    d = new Date();
+
+    function derp() {
+      document.getElementById("uwu").innerHTML = "yoooooo";
+    }
+
+  </script>
+  
+</head>
+
+<body>
+
+  <div class="topnav sticky over">
+    <a class="active" href="https://HTML.squidcoder.repl.co">Home</a>
+    <a href="https://docs.google.com/presentation/d/1idTohWkUenS35mTJCDRnu36GiEb9r6QeCtowvy14Xu8/edit#slide=id.p">
+    PySlide
+    </a>
+    <a href="https://repl.it/@squidcoder">Repl </a>
+    <a href="https://About.squidcoder.repl.co">About</a>
+    <a href="https://www.w3schools.com/colors/colors_picker.asp">
+      colors!
+    </a>
+    <a href="https://map.squidcoder.repl.co">
+      map?
+    </a>
+    <a href="MyStuff.html">
+      my codes
+    </a>
+  </div>
+
+  <h1 id="titlez" class="space center under">
+    Andrew's site
+  </h1>
+
+  <p class="center under">
+    <a href="https://repl.it/@squidcoder" target="_blank">
+      My repl account
+    </a>
+  </p>
+
+  <button class="Bcenter" type="button" onclick='document.getElementById("titlez").innerHTML = jacen'>Click Me!</button>
+
+  <div class="space">
+    <button class="bcenter" type="button" onclick='spam()'>Click Me!</button>
+  </div>
+
+  <div class="MarginTop under">
+    <audio controls>
+      <source src="fur_elise.wav" type="audio/wav">
+    </audio>
+  </div>
+
+  <div class="MarginTop under">
+    <iframe width="420" height="315"
+      src="https://www.youtube.com/embed/GdzrrWA8e7A">
+    </iframe>
+  </div>
+  
+  <div class="MarginTop under">
+    <iframe width="420" height="315"
+      src="https://www.youtube.com/embed/LDU_Txk06tM">
+    </iframe>
+  </div>
+
+  <div>
+    <button class="space" type="button" onclick="document.getElementById('lol').innerHTML = d">
+      Date and time:
+    </button>
+  </div>
+
+  <p id="lol" class="center space">
+    
+  </p>
+
+  <div>
+    <button type="button" onclick="derp()">
+      uwu!!
+    </button>
+  </div>
+
+  <p id="uwu" class="center space">
+    
+  </p>
+
+  <div>
+    <input type="reset">
+  </div>
+
+  <div class="MarginTop under">
+    <iframe width="420" height="315"
+      src="https://www.youtube.com/embed/pxw-5qfJ1dk">
+    </iframe>
+  </div>
+
+  <a href="https://repl.it/@squidcoder/HTML">
+    ??
+  </a>
+
+</body>
+
+</html>
